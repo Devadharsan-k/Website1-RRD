@@ -12,7 +12,7 @@ const Pricing = () => {
     <div>
       <HeroImage {...props} />
       <div className="w-full bg-black">
-        <div className="grid md:grid-cols-3 pt-40 place-items-center pb-12 gap-10">
+        <div className="grid md:grid-cols-3 pt-20 place-items-center pb-12 gap-10">
           <motion.div
             whileHover={{
               scale: 1.1,
