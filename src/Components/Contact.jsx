@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div>
       <HeroImage {...props} />
-      <div className="flex items-center justify-center bg-black p-18">
+      <div className="flex items-center justify-center bg-black mt-2 p-18">
         <form>
           <div className="relative z-0 w-full mb-6 group">
             <input
