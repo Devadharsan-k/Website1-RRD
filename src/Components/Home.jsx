@@ -11,6 +11,7 @@ const Home = () => {
         loop
         muted
         playsInline
+        preload="yes"
         className="relative w-full h-screen object-cover"
       >
         <source src={spaceVideo} type="video/mp4" />
