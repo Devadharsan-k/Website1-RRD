@@ -5,7 +5,7 @@ const HeroImage = ({ title, subTitle }) => {
   return (
     <div>
       <img
-        className="relative w-full h-[50vh] object-cover"
+        className="relative w-full h-[30vh] object-cover"
         src={HeroImg}
         alt=""
       />
