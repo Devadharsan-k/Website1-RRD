@@ -18,7 +18,7 @@ const Navbar = () => {
       className="w-full fixed top-0 left-0 py-4 px-7 md:px-10 md:flex items-center justify-between z-[10] bg-black md:bg-transparent"
     >
       <div className="flex text-3xl cursor-pointer items-center md:text-4xl md:font-semibold">
-        <p>GXL TRVL</p>
+        <Link to="/"><p>GXL TRVL</p></Link>
       </div>
       <div
         onClick={() => setIsOpen(!isOpen)}
